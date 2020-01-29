@@ -144,4 +144,8 @@ jQuery(document).ready(function ($) {
 		
 	}
 
+	$('.purchaseit').click(function(){
+		alert(this.id);
+	});
+
 });

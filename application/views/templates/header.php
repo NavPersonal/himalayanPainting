@@ -35,7 +35,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <script src="<?php echo base_url() . 'assets/js/jquery.easydropdown.js';?>"></script>
     <script src="<?php echo base_url() . 'assets/js/jquery.easy-ticker.js';?>"></script>
     <link href="<?php echo base_url() . 'assets/css/nav.css';?>" rel="stylesheet" type="text/css" media="all" />
-    <script src="<?php echo base_url() . 'assets/js/scripts.js';?>" type="text/javascript"></script>
+    <script src="<?php echo base_url() . 'assets/js/scripts.js';?>?version=1.1" type="text/javascript"></script>
     <!--js-->
     <!--/js-->
     <script src="<?php echo base_url() . 'assets/js/easyResponsiveTabs.js';?>" type="text/javascript"></script>

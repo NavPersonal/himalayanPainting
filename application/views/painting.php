@@ -47,7 +47,11 @@
 	                                <h3>PRODUCT NAME</h3>
 	                                <p><span></span> 176.00 &euro;</p>
 	                            </div-->
-	                        </a>	                        
+	                        </a>	
+	                        <div class="">
+                            <!--p><span></span> 176.00 &euro;</p-->
+                            <h4><a href="#" class="purchaseit" id="Forest_<?php echo $loop.".jpg";?>" onclick="">Click to Purchase</a></h4>
+                        </div>                        
 	                    </div>
 	                    <?php }?>						
 	                    <div class="clearfix"></div>
@@ -70,7 +74,11 @@
 	                                <h3>PRODUCT NAME</h3>
 	                                <p><span></span> 176.00 &euro;</p>
 	                            </div-->
-	                        </a>	                        
+	                        </a>	
+	                        <div class="">
+                            <!--p><span></span> 176.00 &euro;</p-->
+                            <h4><a href="#" class="purchaseit" id="Mountains_<?php echo $loop.".jpg";?>" onclick="">Click to Purchase</a></h4>
+                        </div>                        
 	                    </div>
 	                    <?php }?>						
 	                    <div class="clearfix"></div>
@@ -89,11 +97,11 @@
 	                    <div class="col-md-4 fashion-grid you-para">
 						<a href="<?php echo base_url().'assets/images/Ruins/'.$loop.'.jpg';?>" class="swipebox"  title="Prabhat Kumar Joshi's Picture Gallery">
 							<img src="<?php echo base_url().'assets/images/Ruins/'.$loop.'.jpg';?>" alt="" style="max-width:98%;height:250px;"/>
-	                            <!--div class="product">
-	                                <h3>PRODUCT NAME</h3>
-	                                <p><span></span> 176.00 &euro;</p>
-	                            </div-->
-	                        </a>	                        
+	                        </a>	
+	                    <div class="">
+                            <!--p><span></span> 176.00 &euro;</p-->
+                            <h4><a href="#" class="purchaseit" id="Ruins_<?php echo $loop.".jpg";?>" onclick="">Click to Purchase</a></h4>
+                        </div>                        
 	                    </div>
 	                    <?php }?>						
 	                    <div class="clearfix"></div>
