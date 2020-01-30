@@ -73,37 +73,36 @@ sun is indeed a great achievement</p>
     </div>
     <!-- //footer -->
     <script type="text/javascript">
-    $(document).ready(function() {
+        $(document).ready(function() {
 
-        var dd = $('.vticker').easyTicker({
-            direction: 'up',
-            easing: 'easeInOutBack',
-            speed: 'slow',
-            interval: 8000,
-            height: 'auto',
-            visible: 1,
-            mousePause: 0,
-            controls: {
-                up: '.up',
-                down: '.down',
-                toggle: '.toggle',
-                stopText: 'Stop !!!'
-            }
-        }).data('easyTicker');
+            var dd = $('.vticker').easyTicker({
+                direction: 'up',
+                easing: 'easeInOutBack',
+                speed: 'slow',
+                interval: 8000,
+                height: 'auto',
+                visible: 1,
+                mousePause: 0,
+                controls: {
+                    up: '.up',
+                    down: '.down',
+                    toggle: '.toggle',
+                    stopText: 'Stop !!!'
+                }
+            }).data('easyTicker');
 
 
-        $('.vis').click(function() {
-            dd.options['visible'] = 3;
+            $('.vis').click(function() {
+                dd.options['visible'] = 3;
+            });
+
+            $('.visall').click(function() {
+                dd.stop();
+                dd.options['visible'] = 0;
+                dd.start();
+            });
 
         });
-
-        $('.visall').click(function() {
-            dd.stop();
-            dd.options['visible'] = 0;
-            dd.start();
-        });
-
-    });
     </script>
     </body>
 

@@ -139,13 +139,34 @@ jQuery(document).ready(function ($) {
 			var self = jQuery(this);
 			var value = jQuery.trim(self.val());
 			if(value == '') self.val(self.attr('placeholder'));
-		});
-		
-		
+		});	
 	}
 
 	$('.purchaseit').click(function(){
-		alert(this.id);
+		let str = this.id;
+		let obj= str.split("_");
+		$('#txtPicture_id').val(obj[0]+"/"+obj[1]);
+		$('#Painting_here').html("<img src='"+base_url_+"assets/images/"+obj[0]+"/"+obj[1]+"' width='100'>");
 	});
 
+	$('#frmPurchasePainting').submit(function(){
+		let url_ = site_url_ + "/web/purchasepainting";
+		let data_ = $('#frmPurchasePainting').serialize();
+		$.ajax({
+			type: 'POST',
+			url: url_,
+			data: data_,
+			success:  function(data){
+				$('#message_here').html(data);
+				$('#txtName').val('');
+				$('#txtEmail').val('');
+				$('#txtMobile').val('');
+				$('#txtAddress').val('');
+			},
+			error: function(xhr, status, error){
+
+			}
+		});
+		return false;
+	});
 });

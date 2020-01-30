@@ -5,9 +5,10 @@
     <title>Himalayan paintings | Home :: By Teamfreelancers.com</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="Biruang Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <meta name="keywords" content="Himalayan paintings, Himalayan, paintings, painting, pictures" />
     <script type="application/x-javascript">
+        site_url_ = '<?php echo site_url(); ?>';
+        base_url_ = '<?php echo base_url();?>';
     addEventListener("load", function() {
         setTimeout(hideURLbar, 0);
     }, false);
@@ -31,11 +32,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <!--/fonts-->
+    <!-- nitin -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- -->
     <!-- dropdown -->    
     <script src="<?php echo base_url() . 'assets/js/jquery.easydropdown.js';?>"></script>
     <script src="<?php echo base_url() . 'assets/js/jquery.easy-ticker.js';?>"></script>
     <link href="<?php echo base_url() . 'assets/css/nav.css';?>" rel="stylesheet" type="text/css" media="all" />
-    <script src="<?php echo base_url() . 'assets/js/scripts.js';?>?version=1.1" type="text/javascript"></script>
+    <script src="<?php echo base_url() . 'assets/js/scripts.js';?>?version=1.9" type="text/javascript"></script>
     <!--js-->
     <!--/js-->
     <script src="<?php echo base_url() . 'assets/js/easyResponsiveTabs.js';?>" type="text/javascript"></script>

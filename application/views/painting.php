@@ -48,10 +48,10 @@
 	                                <p><span></span> 176.00 &euro;</p>
 	                            </div-->
 	                        </a>	
-	                        <div class="">
-                            <!--p><span></span> 176.00 &euro;</p-->
-                            <h4><a href="#" class="purchaseit" id="Forest_<?php echo $loop.".jpg";?>" onclick="">Click to Purchase</a></h4>
-                        </div>                        
+	                        <div class="col-md-12 col-sm-12 col-lg-12">
+	                            <!--p><span></span> 176.00 &euro;</p-->
+	                            <h4><a href="#" class="purchaseit" id="Forest_<?php echo $loop.".jpg";?>" data-toggle="modal" data-target="#myModal">Click to Purchase</a></h4>
+	                        </div>                     
 	                    </div>
 	                    <?php }?>						
 	                    <div class="clearfix"></div>
@@ -77,7 +77,7 @@
 	                        </a>	
 	                        <div class="">
                             <!--p><span></span> 176.00 &euro;</p-->
-                            <h4><a href="#" class="purchaseit" id="Mountains_<?php echo $loop.".jpg";?>" onclick="">Click to Purchase</a></h4>
+                            <h4><a href="#" class="purchaseit" id="Mountains_<?php echo $loop.".jpg";?>" data-toggle="modal" data-target="#myModal">Click to Purchase</a></h4>
                         </div>                        
 	                    </div>
 	                    <?php }?>						
@@ -100,7 +100,7 @@
 	                        </a>	
 	                    <div class="">
                             <!--p><span></span> 176.00 &euro;</p-->
-                            <h4><a href="#" class="purchaseit" id="Ruins_<?php echo $loop.".jpg";?>" onclick="">Click to Purchase</a></h4>
+                            <h4><a href="#" class="purchaseit" id="Ruins_<?php echo $loop.".jpg";?>" data-toggle="modal" data-target="#myModal">Click to Purchase</a></h4>
                         </div>                        
 	                    </div>
 	                    <?php }?>						
@@ -114,3 +114,48 @@
 	    <!-- //container -->
 	</div>
 	<!-- //men -->
+
+	<!-- Button to Open the Modal -->
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+	  Open modal
+	</button>
+
+	<!-- The Modal -->
+	<div class="modal fade in" id="myModal">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+
+	      <!-- Modal Header -->
+	      <div class="modal-header">
+	        <h4 class="modal-title">Want to purchase this painting?</h4>
+	        <button type="button" class="close" data-dismiss="modal">&times;</button>
+	      </div>
+
+	      <!-- Modal body -->
+	      <form name="frmPurchasePainting" id="frmPurchasePainting">
+	      <div class="modal-body" id="puchased_content_here">
+	        <div id="Painting_here" class="col-md-3"></div>
+	        <div id="purchased_text_here" class="col-md-9">
+	        		<div class="form-group">
+	        			<input type="hidden" name="txtPicture_id" id="txtPicture_id">
+	        			<input type="text" placeholder="Your Name" name="txtName" id="txtName" style="margin: 5px" class="form-control" required="required">
+		        		<input type="email" placeholder="Your valid email address" name="txtEmail" id="txtEmail" style="margin: 5px" class="form-control" required="required">
+		        		<input type="number" maxlength="10" placeholder="Your valid mobile number" name="txtMobile" id="txtMobile" style="margin: 5px" class="form-control" required="required">
+		        		<textarea name="txtAddress" id="txtAddress" class="form-control" style="margin: 5px" placeholder="Your valid delivery address" required="required"></textarea>
+		        		<div style="display: block; margin: 5px; color: #ff0000; font-size: 10px">*Please fill and send us the above detail for this purchase. We will get back to you very soon.</div>
+	        		</div>
+	        </div>
+	      </div>
+	      <div class="col-md-12">
+	      	<div style="float: left; font-weight: bold; font-size: 10px; padding: 5px 0px" id="message_here"></div>
+	      	<input type="submit" style="float: right" class="btn btn-primary" id="accept_n_submit" value="Accept &amp; Submit">
+	      </div>
+	      <div style="clear: both; padding: 0px; height: 10px" class="col-md-12"></div>
+	      <!-- Modal footer -->
+	      <div class="modal-footer">
+	        <input type="button" class="btn btn-danger" data-dismiss="modal" value="Close">
+	      </div>
+	      </form>
+	    </div>
+	  </div>
+	</div>
