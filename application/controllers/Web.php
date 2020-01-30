@@ -55,7 +55,7 @@ class Web extends CI_Controller {
         $msg_ = $msg_ . "------------------------ <br />Name: ";
          $msg_ = $msg_ . $this->input->post('txtName') . "<br /> Email: ";
         $msg_ = $msg_ . $this->input->post('txtEmail') . "<br /> Mobile: ";
-        $msg_ = $msg_ . "From - " . $this->input->post('txtMobile') . "<br />Address: ";
+        $msg_ = $msg_ . $this->input->post('txtMobile') . "<br />Address: ";
         $msg_ = $msg_ . $this->input->post('txtAddress') . "<br />";
 
         $from_ = $this->input->post('txtEmail');
@@ -63,7 +63,7 @@ class Web extends CI_Controller {
 
         $this->email->from($from_, $name_);
         $this->email->to('purchasepaintings@himalayanpaintings.com');
-        $this->email->cc('nitin.d12@gmail.com');
+        //$this->email->cc('nitin.d12@gmail.com');
 
         $this->email->subject('Request to Purchase Painting');
         $this->email->message($msg_);
