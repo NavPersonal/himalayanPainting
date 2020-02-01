@@ -23,7 +23,8 @@
     <!-- css -->
     <link rel="stylesheet" href="<?php echo base_url() . 'assets/css/style.css';?>" type="text/css" media="all" />
     <!--// css -->
-    <script src="<?php echo base_url() . 'assets/js/jquery.min.js';?>"></script>
+    
+    
     <!--fonts-->
     <link
         href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic'
@@ -35,6 +36,7 @@
     <!-- nitin -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <!-- -->
