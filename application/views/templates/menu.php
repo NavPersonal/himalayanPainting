@@ -35,12 +35,12 @@
                     <li><a href="<?php echo site_url(). '/web/contact';?>">CONTACT</a></li>
                 </ul>
             </div>
-            <div class="search">
+            <!--div class="search">
                 <form>
                     <input type="text" value="Search..." onfocus="this.value = '';"
                         onblur="if (this.value == '') {this.value = 'Search...';}" required="">
                 </form>
-            </div>
+            </div-->
             <div class="clearfix"> </div>
             <!-- script-for-menu -->
             <script>
