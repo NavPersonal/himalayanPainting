@@ -12,7 +12,7 @@
                     <ul>
                         <li class="phone">+91 70371 34636</li>                        
                         <li class="phone">+91 97201 74139</li>    
-                        <li class="mail"><a href="mailto:himapalyan@mail.com">mailme@himalayanpaintings.com</a></li>
+                        <li class="mail"><a href="mailto:himapalyan@mail.com">purchasepaintings@himalayanpaintings.com</a></li>
                     </ul>
                 </div>
                 <div class="clearfix"> </div>

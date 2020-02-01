@@ -71,9 +71,12 @@ sun is indeed a great achievement</p>
         </div>
         <!-- // container -->
     </div>
+    
     <!-- //footer -->
+
+    <script src="<?php echo base_url() . 'assets/js/jquery.easy-ticker.js';?>"></script>
     <script type="text/javascript">
-        $(document).ready(function() {
+    $(document).ready(function() {
 
             var dd = $('.vticker').easyTicker({
                 direction: 'up',

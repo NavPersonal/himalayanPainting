@@ -24,7 +24,7 @@
 	                    <li>Mohalla Galli, Jakhandevi, Almora-263601</li>
 	                    <li>Kumaun Hills (India)</li>
 						<li>Contact: +91 70371 34636, +91 97201 74139</li>
-						<li class="mail"><a href="mailto:himapalyan@mail.com">mailme@himalayanpaintings.com</a></li>
+						<li class="mail"><a href="mailto:purchasepaintings@himalayanpaintings.com">purchasepaintings@himalayanpaintings.com</a></li>
 	                    <li>&nbsp;</li>
 	                    <li><a href="#"><i class="fa fa-whatsapp"> +91 97201 74139</i></a></li>
 	                </ul>	                
